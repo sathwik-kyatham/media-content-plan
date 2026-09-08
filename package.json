@@ -1,0 +1,13 @@
+{
+  "name": "ai-media-curation-strategic-plan",
+  "version": "1.0.0",
+  "description": "Generates a Word (.docx) strategic plan for AI-driven media content curation using the docx npm library.",
+  "main": "build_doc.js",
+  "scripts": {
+    "build": "node build_doc.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0"
+  },
+  "license": "MIT"
+}
